@@ -1,4 +1,4 @@
-f5app-secret.yaml
+f5app-secret*
 *.key
 *.crt
 *.jwt
