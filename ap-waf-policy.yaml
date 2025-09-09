@@ -5,9 +5,9 @@ metadata:
 spec:
   waf:
     enable: true
-    apPolicy: "nginx-lab/dataguard-block"
+    apPolicy: "default/dataguard-block"
     securityLog:
       enable: true
-      apLogConf: "nginx-lab/logconf"
-      #logDest: "syslog:server=syslog-svc-2.nginx-lab.svc.cluster.local:514"
-      logDest: "syslog:server=syslog-svc-2.nginx-lab.svc.cluster.local:514"
+      apLogConf: "default/logconf"
+      #logDest: "syslog:server=syslog-svc-2.default.svc.cluster.local:514"
+      logDest: "syslog:server=10.1.10.7:5144"
