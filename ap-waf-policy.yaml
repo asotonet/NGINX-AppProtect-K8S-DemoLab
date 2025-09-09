@@ -10,4 +10,4 @@ spec:
       enable: true
       apLogConf: "default/logconf"
       #logDest: "syslog:server=syslog-svc-2.default.svc.cluster.local:514"
-      logDest: "syslog:server=10.1.10.7:5144"
+      logDest: "syslog:server=:5144"
