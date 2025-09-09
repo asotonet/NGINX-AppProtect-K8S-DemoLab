@@ -16,7 +16,7 @@ spec:
   ingressClassName: nginx-ingress
   tls:
     - hosts:
-        - app.aecdemosite.online
+        - waf.aecdemosite.online
       secretName: f5app-secret
   rules:
     - host: waf.aecdemosite.online
