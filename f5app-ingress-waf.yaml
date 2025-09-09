@@ -16,10 +16,10 @@ spec:
   ingressClassName: nginx-ingress
   tls:
     - hosts:
-        - app.example.com
+        - app.aecdemosite.online
       secretName: f5app-secret
   rules:
-    - host: waf.example.com
+    - host: waf.aecdemosite.online
       http:
         paths:
           - pathType: Prefix
