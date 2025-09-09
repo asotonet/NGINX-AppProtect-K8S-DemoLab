@@ -3,7 +3,7 @@ kind: VirtualServer
 metadata:
   name: f5lab-vs-waf
 spec:
-  host: app.aecdemosite.online
+  host: waf.aecdemosite.online
   tls:
     secret: f5app-secret
   policies:
