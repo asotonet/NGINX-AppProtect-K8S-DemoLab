@@ -2,3 +2,4 @@ f5app-secret*
 *.key
 *.crt
 *.jwt
+certificado
